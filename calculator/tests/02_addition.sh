@@ -3,6 +3,8 @@
 # (The absolute path to the program is provided as the first and only argument.)
 CALCULATOR=$1
 
+echo "test suite #2 executed"
+
 # Test 01: Test positive number addition
 if [[ $($CALCULATOR 1 + 1) -ne 2 ]]; then  # If the output of the program is not 2...
   echo 'ERROR! A valid run of the calculator (1 + 1) failed to produce 2 as an output!'

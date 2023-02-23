@@ -10,8 +10,8 @@ if [[ $($CALCULATOR 2 '*' 5) -ne 10 ]]; then  # If the output of the program is 
 fi
 
 # Test 02: Test multiplication of two negative numbers
-if [[ $($CALCULATOR 2 '*' -2) -ne 4 ]]; then  # If the output of the program is not 4...
-  echo 'ERROR! A valid run of the calculator (2 * -2) failed to produce 4 as an output!'
+if [[ $($CALCULATOR 2 '*' -2) -ne -4 ]]; then  # If the output of the program is not -4...
+  echo 'ERROR! A valid run of the calculator (2 * -2) failed to produce -4 as an output!'
   exit 1
 fi
 

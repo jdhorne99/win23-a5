@@ -12,7 +12,7 @@ if [[ $($CALCULATOR 1 + 1) -ne 2 ]]; then  # If the output of the program is not
 fi
 
 # Test 02: Test negative number addition
-if [[ $($CALCULATOR 2 + -1) -ne 1 ]]; then  # If the output of the program is not 0.75...
+if [[ $($CALCULATOR 2 + -1) -ne 1 ]]; then  # If the output of the program is not 1...
   echo 'ERROR! A valid run of the calculator (2 + -1) failed to produce 1 as an output!'
   exit 1
 fi

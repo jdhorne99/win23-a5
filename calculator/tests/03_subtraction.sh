@@ -9,8 +9,8 @@ if [[ $($CALCULATOR 1 - 1) -ne 0 ]]; then  # If the output of the program is not
   exit 1
 fi
 
-# Test 03: Test negative number subtraction
-if [[ $($CALCULATOR 1 - -2) -ne 3 ]]; then  # If the output of the program is not 0.25...
+# Test 02: Test negative number subtraction
+if [[ $($CALCULATOR 1 - -2) -ne 3 ]]; then  # If the output of the program is not 3...
   echo 'ERROR! A valid run of the calculator (1 - -2) failed to produce 3 as an output!'
   exit 1
 fi
